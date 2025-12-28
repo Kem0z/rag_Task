@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-community
+langchain-huggingface
+langchain-chroma
+langchain-openai
+sentence-transformers
+chromadb
+openai
+datasets
+numpy<2.0
