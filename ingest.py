@@ -19,7 +19,7 @@ def ingest_data():
     dataset_stream = load_dataset("trivia_qa", "rc", split="validation", streaming=True)
     
     # We take only the first 600 documents. 
-    # This satisfies the "500-2000" requirement without killing your disk space.
+    # This satisfies the "500-2000" requirement without killing disk space.
     dataset = dataset_stream.take(600)
 
     print("--- 2. Preprocessing & Chunking ---")
